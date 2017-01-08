@@ -1,0 +1,75 @@
+2016/10/15 09:05:36.304 Command Line:
+  {hub4com  --baud=38400 --no-default-fc-route=All:All --bi-route=All:All --trace-file="C:\oevb_oneb_2016\oevb2016\trace_com7.001.log" --octs=off --create-filter=trace --add-filters=0:trace  \\.\CNCB0 com7}
+2016/10/15 09:05:36.304 Config:
+_BEGIN_
+  --baud=38400
+  --no-default-fc-route=All:All
+  --bi-route=All:All
+  --trace-file=C:\oevb_oneb_2016\oevb2016\trace_com7.001.log
+  --octs=off
+  --create-filter=trace
+  --add-filters=0:trace
+  \\.\CNCB0
+  com7
+_END_
+2016/10/15 09:05:36.351 CNCB0(0)-(trace)->: MSG_LOOP_TEST {00000000}
+2016/10/15 09:05:36.351 CNCB0(0)<-(trace)-com7(1): MSG_LOOP_TEST {00000000}
+2016/10/15 09:05:36.351 CNCB0(0)-(trace)->: MSG_SET_OUT_OPTS {[]}
+2016/10/15 09:05:36.351 CNCB0(0)<-(trace)-com7(1): MSG_SET_OUT_OPTS {[]}
+2016/10/15 09:05:36.351 CNCB0(0)-(trace)->: MSG_COUNT_REPEATS {&0014FE8C[0x0] MSG_GET_IN_OPTS}
+2016/10/15 09:05:36.351 CNCB0(0)-(trace)->: MSG_GET_IN_OPTS {&0014FE98[] [GO0_0x3ffffff8]}
+2016/10/15 09:05:36.351 CNCB0(0)-(trace)->: MSG_GET_IN_OPTS {&00AD6FB0[] [LBR_STATUS|LLC_STATUS|ESCAPE_MODE]}
+2016/10/15 09:05:36.351 CNCB0(0)-(trace)->: MSG_GET_IN_OPTS {&0014FE9C[] [GO1_0x3ff80000]}
+2016/10/15 09:05:36.351 CNCB0(0)-(trace)->: MSG_GET_IN_OPTS {&00AD6FB4[] [DCTS|DDSR|TERI|DDCD|CTS|DSR|RI|DCD|DR|OE|PE|FE|BI|THRE|TEMT|FIFOERR|RBR_STATUS|RLC_STATUS|BREAK_STATUS]}
+2016/10/15 09:05:36.351 CNCB0(0)-(trace)->: MSG_GET_IN_OPTS {&0014FEA0[] [GO2_0x3fffffff]}
+2016/10/15 09:05:36.351 CNCB0(0)-(trace)->: MSG_GET_IN_OPTS {&0014FEA4[] [GO3_0x3fffffff]}
+2016/10/15 09:05:36.351 CNCB0(0)-(trace)->: MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:05:36.351 CNCB0(0)-(trace)->: MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:05:36.351 CNCB0(0)-(trace)->: MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:05:36.351 CNCB0(0)-(trace)->: MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:05:36.351 CNCB0(0)<-(trace)-com7(1): MSG_COUNT_REPEATS {&0014FE8C[0x0] MSG_GET_IN_OPTS}
+2016/10/15 09:05:36.351 CNCB0(0)<-(trace)-com7(1): MSG_GET_IN_OPTS {&0014FE98[] [GO0_0x3ffffff8]}
+2016/10/15 09:05:36.351 CNCB0(0)<-(trace)-com7(1): MSG_GET_IN_OPTS {&00AD7070[] [LBR_STATUS|LLC_STATUS|ESCAPE_MODE]}
+2016/10/15 09:05:36.351 CNCB0(0)<-(trace)-com7(1): MSG_GET_IN_OPTS {&0014FE9C[] [GO1_0x3ff80000]}
+2016/10/15 09:05:36.351 CNCB0(0)<-(trace)-com7(1): MSG_GET_IN_OPTS {&00AD7074[] [DCTS|DDSR|TERI|DDCD|CTS|DSR|RI|DCD|DR|OE|PE|FE|BI|THRE|TEMT|FIFOERR|RBR_STATUS|RLC_STATUS|BREAK_STATUS]}
+2016/10/15 09:05:36.351 CNCB0(0)<-(trace)-com7(1): MSG_GET_IN_OPTS {&0014FEA0[] [GO2_0x3fffffff]}
+2016/10/15 09:05:36.351 CNCB0(0)<-(trace)-com7(1): MSG_GET_IN_OPTS {&0014FEA4[] [GO3_0x3fffffff]}
+2016/10/15 09:05:36.351 CNCB0(0)<-(trace)-com7(1): MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:05:36.351 CNCB0(0)<-(trace)-com7(1): MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:05:36.351 CNCB0(0)<-(trace)-com7(1): MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:05:36.351 CNCB0(0)<-(trace)-com7(1): MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:05:36.351 CNCB0(0)-(trace)->: MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:05:36.351 CNCB0(0)-(trace)->: MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:05:36.351 CNCB0(0)-(trace)->: MSG_CONNECT {true}
+2016/10/15 09:05:36.351 CNCB0(0)<-(trace)-com7(1): MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:05:36.351 CNCB0(0)<-(trace)-com7(1): MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:05:36.351 CNCB0(0)<-(trace)-com7(1): MSG_CONNECT {true}
+2016/10/15 09:05:38.243 CNCB0(0)-(trace)->: MSG_LINE_DATA {[8]:
+  ff 02 f0 01 4d 6d 0a 03                          * ....Mm..         *}
+2016/10/15 09:05:38.243 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:05:38.243 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  f0 03 00 22 4d 8d d8 03                          * ..."M...         *}
+2016/10/15 09:05:38.353 CNCB0(0)-(trace)->: MSG_LINE_DATA {[9]:
+  ff 02 83 02 00 80 bf 17 03                       * .........        *}
+2016/10/15 09:05:38.384 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:05:38.399 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  83 83 00 22 00 00 01 31 48 f7 35 37 34 06 07 04  * ..."...1H.574... *
+  91 97 80 20 c3 4b 08 4e fa 28 0a 04 07 00 6d dd  * ... .K.N.(....m. *
+  00 00 00 18 04 ff 01 00 00 00 00 00 00 00 00 00  * ................ *
+  00 4d 70 ff ff 01 00 03 c1 00 00 00 7c 00 00 00  * .Mp.........|... *}
+2016/10/15 09:05:38.399 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  00 00 00 02 01 00 24 fb bc ff ff 19 99 05 1e 7f  * ......$......... *
+  f8 85 0c 05 01 a8 0a 00 00 ff ff ff ff ff ff ff  * ................ *
+  ff ff ff ff ff 30 30 30 35 3d 20 00 00 00 00 00  * .....0005= ..... *
+  00 ff ff ff ff 30 05 22 35 04 10 06 07 00 00 02  * .....0."5....... *}
+2016/10/15 09:05:38.399 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  00 1c 22 00 78 4a 85 03                          * ..".xJ..         *}
+2016/10/15 09:05:38.681 CNCB0(0)-(trace)->: MSG_LINE_DATA {[7]:
+  ff 02 f7 00 f7 00 03                             * .......          *}
+2016/10/15 09:05:38.681 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:05:38.681 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[14]:
+  f7 09 00 22 30 00 00 00 04 ac 7f dd fe 03        * ..."0.........   *}
+2016/10/15 09:14:16.027 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[0]:}

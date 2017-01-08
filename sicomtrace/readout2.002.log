@@ -1,0 +1,424 @@
+2016/10/15 09:23:08.567 Command Line:
+  {hub4com  --baud=38400 --no-default-fc-route=All:All --bi-route=All:All --trace-file="C:\oevb_oneb_2016\oevb2016\trace_com7.002.log" --octs=off --create-filter=trace --add-filters=0:trace  \\.\CNCB0 com7}
+2016/10/15 09:23:08.567 Config:
+_BEGIN_
+  --baud=38400
+  --no-default-fc-route=All:All
+  --bi-route=All:All
+  --trace-file=C:\oevb_oneb_2016\oevb2016\trace_com7.002.log
+  --octs=off
+  --create-filter=trace
+  --add-filters=0:trace
+  \\.\CNCB0
+  com7
+_END_
+2016/10/15 09:23:08.614 CNCB0(0)-(trace)->: MSG_LOOP_TEST {00000000}
+2016/10/15 09:23:08.614 CNCB0(0)<-(trace)-com7(1): MSG_LOOP_TEST {00000000}
+2016/10/15 09:23:08.630 CNCB0(0)-(trace)->: MSG_SET_OUT_OPTS {[]}
+2016/10/15 09:23:08.630 CNCB0(0)<-(trace)-com7(1): MSG_SET_OUT_OPTS {[]}
+2016/10/15 09:23:08.630 CNCB0(0)-(trace)->: MSG_COUNT_REPEATS {&0014FE8C[0x0] MSG_GET_IN_OPTS}
+2016/10/15 09:23:08.630 CNCB0(0)-(trace)->: MSG_GET_IN_OPTS {&0014FE98[] [GO0_0x3ffffff8]}
+2016/10/15 09:23:08.630 CNCB0(0)-(trace)->: MSG_GET_IN_OPTS {&001F7008[] [LBR_STATUS|LLC_STATUS|ESCAPE_MODE]}
+2016/10/15 09:23:08.630 CNCB0(0)-(trace)->: MSG_GET_IN_OPTS {&0014FE9C[] [GO1_0x3ff80000]}
+2016/10/15 09:23:08.630 CNCB0(0)-(trace)->: MSG_GET_IN_OPTS {&001F700C[] [DCTS|DDSR|TERI|DDCD|CTS|DSR|RI|DCD|DR|OE|PE|FE|BI|THRE|TEMT|FIFOERR|RBR_STATUS|RLC_STATUS|BREAK_STATUS]}
+2016/10/15 09:23:08.630 CNCB0(0)-(trace)->: MSG_GET_IN_OPTS {&0014FEA0[] [GO2_0x3fffffff]}
+2016/10/15 09:23:08.630 CNCB0(0)-(trace)->: MSG_GET_IN_OPTS {&0014FEA4[] [GO3_0x3fffffff]}
+2016/10/15 09:23:08.630 CNCB0(0)-(trace)->: MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:23:08.630 CNCB0(0)-(trace)->: MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:23:08.630 CNCB0(0)-(trace)->: MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:23:08.630 CNCB0(0)-(trace)->: MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:23:08.630 CNCB0(0)<-(trace)-com7(1): MSG_COUNT_REPEATS {&0014FE8C[0x0] MSG_GET_IN_OPTS}
+2016/10/15 09:23:08.630 CNCB0(0)<-(trace)-com7(1): MSG_GET_IN_OPTS {&0014FE98[] [GO0_0x3ffffff8]}
+2016/10/15 09:23:08.630 CNCB0(0)<-(trace)-com7(1): MSG_GET_IN_OPTS {&001F70A0[] [LBR_STATUS|LLC_STATUS|ESCAPE_MODE]}
+2016/10/15 09:23:08.630 CNCB0(0)<-(trace)-com7(1): MSG_GET_IN_OPTS {&0014FE9C[] [GO1_0x3ff80000]}
+2016/10/15 09:23:08.630 CNCB0(0)<-(trace)-com7(1): MSG_GET_IN_OPTS {&001F70A4[] [DCTS|DDSR|TERI|DDCD|CTS|DSR|RI|DCD|DR|OE|PE|FE|BI|THRE|TEMT|FIFOERR|RBR_STATUS|RLC_STATUS|BREAK_STATUS]}
+2016/10/15 09:23:08.630 CNCB0(0)<-(trace)-com7(1): MSG_GET_IN_OPTS {&0014FEA0[] [GO2_0x3fffffff]}
+2016/10/15 09:23:08.630 CNCB0(0)<-(trace)-com7(1): MSG_GET_IN_OPTS {&0014FEA4[] [GO3_0x3fffffff]}
+2016/10/15 09:23:08.630 CNCB0(0)<-(trace)-com7(1): MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:23:08.630 CNCB0(0)<-(trace)-com7(1): MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:23:08.630 CNCB0(0)<-(trace)-com7(1): MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:23:08.630 CNCB0(0)<-(trace)-com7(1): MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:23:08.630 CNCB0(0)-(trace)->: MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:23:08.630 CNCB0(0)-(trace)->: MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:23:08.630 CNCB0(0)-(trace)->: MSG_CONNECT {true}
+2016/10/15 09:23:08.630 CNCB0(0)<-(trace)-com7(1): MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:23:08.630 CNCB0(0)<-(trace)-com7(1): MSG_FAIL_IN_OPTS {[]}
+2016/10/15 09:23:08.630 CNCB0(0)<-(trace)-com7(1): MSG_CONNECT {true}
+2016/10/15 09:23:12.114 CNCB0(0)-(trace)->: MSG_LINE_DATA {[8]:
+  ff 02 f0 01 4d 6d 0a 03                          * ....Mm..         *}
+2016/10/15 09:23:12.130 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:23:12.130 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  f0 03 00 22 4d 8d d8 03                          * ..."M...         *}
+2016/10/15 09:23:12.193 CNCB0(0)-(trace)->: MSG_LINE_DATA {[9]:
+  ff 02 83 02 00 80 bf 17 03                       * .........        *}
+2016/10/15 09:23:12.224 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:23:12.224 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  83 83 00 22 00 00 01 31 48 f7 35 37 34 06 07 04  * ..."...1H.574... *
+  91 97 80 20 c3 4b 08 4e fa 28 0a 04 07 00 6d dd  * ... .K.N.(....m. *
+  00 00 00 18 04 ff 01 00 00 00 00 00 00 00 00 00  * ................ *
+  00 4d 70 ff ff 01 00 03 c1 00 00 00 22 00 00 00  * .Mp........."... *}
+2016/10/15 09:23:12.239 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  00 00 00 00 01 00 24 fb bc ff ff 19 99 05 1e 7f  * ......$......... *
+  f8 85 0c 05 01 a7 bb 00 00 ff ff ff ff ff ff ff  * ................ *
+  ff ff ff ff ff 30 30 30 35 3d 20 00 00 00 00 00  * .....0005= ..... *
+  00 ff ff ff ff 30 05 22 35 04 10 06 07 00 00 02  * .....0."5....... *}
+2016/10/15 09:23:12.239 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  00 1c 22 00 78 8d bb 03                          * ..".x...         *}
+2016/10/15 09:23:12.489 CNCB0(0)-(trace)->: MSG_LINE_DATA {[7]:
+  ff 02 f7 00 f7 00 03                             * .......          *}
+2016/10/15 09:23:12.489 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:23:12.489 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[14]:
+  f7 09 00 22 30 00 00 00 00 1b 9a a3 4f 03        * ..."0.......O.   *}
+2016/10/15 09:23:38.084 CNCB0(0)-(trace)->: MSG_LINE_DATA {[8]:
+  ff 02 f0 01 4d 6d 0a 03                          * ....Mm..         *}
+2016/10/15 09:23:38.084 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:23:38.084 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  f0 03 00 22 4d 8d d8 03                          * ..."M...         *}
+2016/10/15 09:23:38.131 CNCB0(0)-(trace)->: MSG_LINE_DATA {[9]:
+  ff 02 83 02 00 80 bf 17 03                       * .........        *}
+2016/10/15 09:23:38.178 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:23:38.178 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  83 83 00 22 00 00 01 31 48 f7 35 37 34 06 07 04  * ..."...1H.574... *
+  91 97 80 20 c3 4b 08 4e fa 28 0a 04 07 00 6d dd  * ... .K.N.(....m. *
+  00 00 00 18 04 ff 01 00 00 00 00 00 00 00 00 00  * ................ *
+  00 4d 70 ff ff 01 00 03 c1 00 00 00 22 00 00 00  * .Mp........."... *}
+2016/10/15 09:23:38.178 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  00 00 00 00 01 00 24 fb bc ff ff 19 99 05 1e 7f  * ......$......... *
+  f8 85 0c 05 01 a7 bb 00 00 ff ff ff ff ff ff ff  * ................ *
+  ff ff ff ff ff 30 30 30 35 3d 20 00 00 00 00 00  * .....0005= ..... *
+  00 ff ff ff ff 30 05 22 35 04 10 06 07 00 00 02  * .....0."5....... *}
+2016/10/15 09:23:38.178 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  00 1c 22 00 78 8d bb 03                          * ..".x...         *}
+2016/10/15 09:23:38.303 CNCB0(0)-(trace)->: MSG_LINE_DATA {[7]:
+  ff 02 f7 00 f7 00 03                             * .......          *}
+2016/10/15 09:23:38.303 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:23:38.303 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[14]:
+  f7 09 00 22 30 00 00 00 00 35 6b 52 ab 03        * ..."0....5kR..   *}
+2016/10/15 09:23:52.350 CNCB0(0)-(trace)->: MSG_LINE_DATA {[8]:
+  ff 02 f0 01 4d 6d 0a 03                          * ....Mm..         *}
+2016/10/15 09:23:52.350 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:23:52.350 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  f0 03 00 22 4d 8d d8 03                          * ..."M...         *}
+2016/10/15 09:23:52.382 CNCB0(0)-(trace)->: MSG_LINE_DATA {[9]:
+  ff 02 83 02 00 80 bf 17 03                       * .........        *}
+2016/10/15 09:23:52.413 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:23:52.413 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  83 83 00 22 00 00 01 31 48 f7 35 37 34 06 07 04  * ..."...1H.574... *
+  91 97 80 20 c3 4b 08 4e fa 28 0a 04 07 00 6d dd  * ... .K.N.(....m. *
+  00 00 00 18 04 ff 01 00 00 00 00 00 00 00 00 00  * ................ *
+  00 4d 70 ff ff 01 00 03 c1 00 00 00 27 00 00 00  * .Mp.........'... *}
+2016/10/15 09:23:52.429 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  00 00 00 00 01 00 24 fb bc ff ff 19 99 05 1e 7f  * ......$......... *
+  f8 85 0c 05 01 a7 bb 00 00 ff ff ff ff ff ff ff  * ................ *
+  ff ff ff ff ff 30 30 30 35 3d 20 00 00 00 00 00  * .....0005= ..... *
+  00 ff ff ff ff 30 05 22 35 04 10 06 07 00 00 02  * .....0."5....... *}
+2016/10/15 09:23:52.429 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  00 1c 22 00 78 52 26 03                          * ..".xR&.         *}
+2016/10/15 09:23:52.460 CNCB0(0)-(trace)->: MSG_LINE_DATA {[64]:
+  ff 02 82 71 10 4b 08 4e fa 28 0a 04 07 00 6d dd  * ...q.K.N.(....m. *
+  00 00 00 18 04 ff 01 00 00 00 00 00 00 00 00 00  * ................ *
+  00 4d 70 ff ff 01 00 00 c1 00 00 00 27 00 00 00  * .Mp.........'... *
+  00 00 00 00 01 00 24 fb bc ff ff 19 99 05 1e 7f  * ......$......... *}
+2016/10/15 09:23:52.460 CNCB0(0)-(trace)->: MSG_LINE_DATA {[56]:
+  f8 85 0c 05 01 a7 bb 00 00 ff ff ff ff ff ff ff  * ................ *
+  ff ff ff ff ff 30 30 30 35 3d 20 00 00 00 00 00  * .....0005= ..... *
+  00 ff ff ff ff 30 05 05 35 04 10 0a 0f 00 84 28  * .....0..5......( *
+  00 1c 22 00 78 22 39 03                          * ..".x"9.         *}
+2016/10/15 09:23:52.507 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:23:52.507 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  82 03 00 22 10 38 cc 03                          * ...".8..         *}
+2016/10/15 09:23:52.601 CNCB0(0)-(trace)->: MSG_LINE_DATA {[7]:
+  ff 02 f7 00 f7 00 03                             * .......          *}
+2016/10/15 09:23:52.601 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:23:52.601 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[14]:
+  f7 09 00 05 30 00 00 00 00 43 b7 2a ec 03        * ....0....C.*..   *}
+2016/10/15 09:23:53.007 CNCB0(0)-(trace)->: MSG_LINE_DATA {[14]:
+  ff 02 f6 07 10 0a 0f 0c 84 29 00 32 48 03        * .........).2H.   *}
+2016/10/15 09:23:53.007 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:23:53.007 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[14]:
+  f6 09 00 05 10 0a 0f 0c 84 29 00 2b 6c 03        * .........).+l.   *}
+2016/10/15 09:23:53.038 CNCB0(0)-(trace)->: MSG_LINE_DATA {[7]:
+  ff 02 f5 00 f5 00 03                             * .......          *}
+2016/10/15 09:23:53.038 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:23:53.038 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[7]:
+  f5 02 00 05 04 1d 03                             * .......          *}
+2016/10/15 09:23:53.069 CNCB0(0)-(trace)->: MSG_LINE_DATA {[8]:
+  ff 02 f9 01 01 17 0a 03                          * ........         *}
+2016/10/15 09:23:53.069 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:23:53.069 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  f9 03 00 05 01 75 0a 03                          * .....u..         *}
+2016/10/15 09:24:05.601 CNCB0(0)-(trace)->: MSG_LINE_DATA {[8]:
+  ff 02 f0 01 4d 6d 0a 03                          * ....Mm..         *}
+2016/10/15 09:24:05.617 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:24:05.617 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  f0 03 00 05 4d 8d 0a 03                          * ....M...         *}
+2016/10/15 09:24:05.632 CNCB0(0)-(trace)->: MSG_LINE_DATA {[9]:
+  ff 02 83 02 00 80 bf 17 03                       * .........        *}
+2016/10/15 09:24:05.664 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:24:05.664 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  83 83 00 05 00 00 01 31 48 f7 35 37 34 06 07 04  * .......1H.574... *
+  91 97 80 20 c3 4b 08 4e fa 28 0a 04 07 00 6d dd  * ... .K.N.(....m. *
+  00 00 00 18 04 ff 01 00 00 00 00 00 00 00 00 00  * ................ *
+  00 4d 70 ff ff 01 00 00 c1 00 00 00 32 00 00 00  * .Mp.........2... *}
+2016/10/15 09:24:05.679 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  00 00 00 00 01 00 24 ff fe ff ff 19 99 05 1e 7f  * ......$......... *
+  f8 85 0c 05 01 a8 8e 00 00 ff ff ff ff ff ff ff  * ................ *
+  ff ff ff ff ff 30 30 30 35 3d 20 00 00 00 00 00  * .....0005= ..... *
+  00 ff ff ff ff 30 05 05 35 04 10 0a 0f 00 84 28  * .....0..5......( *}
+2016/10/15 09:24:05.679 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  00 1c 22 00 78 92 f8 03                          * ..".x...         *}
+2016/10/15 09:24:05.695 CNCB0(0)-(trace)->: MSG_LINE_DATA {[64]:
+  ff 02 82 71 10 4b 08 4e fa 28 0a 04 07 00 6d dd  * ...q.K.N.(....m. *
+  00 00 00 18 04 ff 01 00 00 00 00 00 00 00 00 00  * ................ *
+  00 4d 70 ff ff 01 00 00 c1 00 00 00 32 00 00 00  * .Mp.........2... *
+  00 00 00 00 01 00 24 ff fe ff ff 19 99 05 1e 7f  * ......$......... *}
+2016/10/15 09:24:05.695 CNCB0(0)-(trace)->: MSG_LINE_DATA {[56]:
+  f8 85 0c 05 01 a8 8e 00 00 ff ff ff ff ff ff ff  * ................ *
+  ff ff ff ff ff 30 30 30 35 3d 20 00 00 00 00 00  * .....0005= ..... *
+  00 ff ff ff ff 30 05 05 35 05 10 0a 0f 00 84 35  * .....0..5......5 *
+  00 1c 22 00 78 b4 15 03                          * ..".x...         *}
+2016/10/15 09:24:05.742 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:24:05.742 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  82 03 00 05 10 38 1e 03                          * .....8..         *}
+2016/10/15 09:24:05.851 CNCB0(0)-(trace)->: MSG_LINE_DATA {[7]:
+  ff 02 f7 00 f7 00 03                             * .......          *}
+2016/10/15 09:24:05.851 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:24:05.851 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[14]:
+  f7 09 00 05 10 0a 0f 0c 84 35 d7 9c 30 03        * .........5..0.   *}
+2016/10/15 09:24:05.992 CNCB0(0)-(trace)->: MSG_LINE_DATA {[14]:
+  ff 02 f6 07 10 0a 0f 0c 84 36 00 b2 09 03        * .........6....   *}
+2016/10/15 09:24:05.992 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:24:05.992 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[14]:
+  f6 09 00 05 10 0a 0f 0c 84 36 00 ab 2d 03        * .........6..-.   *}
+2016/10/15 09:24:06.023 CNCB0(0)-(trace)->: MSG_LINE_DATA {[7]:
+  ff 02 f5 00 f5 00 03                             * .......          *}
+2016/10/15 09:24:06.023 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:24:06.023 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[7]:
+  f5 02 00 05 04 1d 03                             * .......          *}
+2016/10/15 09:24:06.054 CNCB0(0)-(trace)->: MSG_LINE_DATA {[8]:
+  ff 02 f9 01 01 17 0a 03                          * ........         *}
+2016/10/15 09:24:06.054 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:24:06.054 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  f9 03 00 05 01 75 0a 03                          * .....u..         *}
+2016/10/15 09:26:44.765 CNCB0(0)-(trace)->: MSG_LINE_DATA {[9]:
+  ff 02 02 f0 01 4d 6d 0a 03                       * .....Mm..        *}
+2016/10/15 09:26:44.765 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:26:44.765 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  f0 03 00 05 4d 8d 0a 03                          * ....M...         *}
+2016/10/15 09:26:44.796 CNCB0(0)-(trace)->: MSG_LINE_DATA {[10]:
+  ff 02 02 83 02 74 01 04 14 03                    * .....t....       *}
+2016/10/15 09:26:44.796 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:26:44.796 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[9]:
+  83 04 00 05 74 05 31 37 03                       * ....t.17.        *}
+2016/10/15 09:26:44.968 CNCB0(0)-(trace)->: MSG_LINE_DATA {[10]:
+  ff 02 02 83 02 00 80 bf 17 03                    * ..........       *}
+2016/10/15 09:26:44.999 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:26:44.999 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  83 83 00 05 00 00 01 31 48 f7 35 37 34 06 07 04  * .......1H.574... *
+  91 97 80 20 c3 4b 08 4e fa 28 0a 04 07 00 6d dd  * ... .K.N.(....m. *
+  00 00 00 18 04 ff 01 00 00 00 00 00 00 00 00 00  * ................ *
+  00 4d 70 ff ff 01 00 00 c1 00 00 00 42 00 00 00  * .Mp.........B... *}
+2016/10/15 09:26:44.999 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  00 00 00 00 01 00 24 ff fe ff ff 19 99 05 1e 7f  * ......$......... *
+  f8 85 0c 05 01 a8 94 00 00 ff ff ff ff ff ff ff  * ................ *
+  ff ff ff ff ff 30 30 30 35 3d 20 00 00 00 00 00  * .....0005= ..... *
+  00 ff ff ff ff 30 05 05 35 05 10 0a 0f 00 84 35  * .....0..5......5 *}
+2016/10/15 09:26:44.999 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  00 1c 22 00 78 a1 3f 03                          * ..".x.?.         *}
+2016/10/15 09:28:12.695 CNCB0(0)-(trace)->: MSG_LINE_DATA {[8]:
+  ff 02 f0 01 4d 6d 0a 03                          * ....Mm..         *}
+2016/10/15 09:28:12.695 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:28:12.695 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  f0 03 00 05 4d 8d 0a 03                          * ....M...         *}
+2016/10/15 09:28:12.757 CNCB0(0)-(trace)->: MSG_LINE_DATA {[9]:
+  ff 02 83 02 00 80 bf 17 03                       * .........        *}
+2016/10/15 09:28:12.789 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:28:12.789 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  83 83 00 05 00 00 01 31 48 f7 35 37 34 06 07 04  * .......1H.574... *
+  91 97 80 20 c3 4b 08 4e fa 28 0a 04 07 00 6d dd  * ... .K.N.(....m. *
+  00 00 00 18 04 ff 01 00 00 00 00 00 00 00 00 00  * ................ *
+  00 4d 70 ff ff 01 00 00 c1 00 00 00 4c 00 00 00  * .Mp.........L... *}
+2016/10/15 09:28:12.804 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  00 00 00 00 01 00 24 ff fe ff ff 19 99 05 1e 7f  * ......$......... *
+  f8 85 0c 05 01 a8 94 00 00 ff ff ff ff ff ff ff  * ................ *
+  ff ff ff ff ff 30 30 30 35 3d 20 00 00 00 00 00  * .....0005= ..... *
+  00 ff ff ff ff 30 05 05 35 05 10 0a 0f 00 84 35  * .....0..5......5 *}
+2016/10/15 09:28:12.804 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  00 1c 22 00 78 07 e5 03                          * ..".x...         *}
+2016/10/15 09:28:12.992 CNCB0(0)-(trace)->: MSG_LINE_DATA {[7]:
+  ff 02 f7 00 f7 00 03                             * .......          *}
+2016/10/15 09:28:12.992 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:28:12.992 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[14]:
+  f7 09 00 05 10 0a 0f 0c 85 2c ff b2 66 03        * .........,..f.   *}
+2016/10/15 09:28:27.445 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:28:27.445 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[11]:
+  e5 06 00 05 00 00 11 9f b0 c3 03                 * ...........      *}
+2016/10/15 09:28:27.555 CNCB0(0)-(trace)->: MSG_LINE_DATA {[7]:
+  ff 02 b1 00 b1 00 03                             * .......          *}
+2016/10/15 09:28:28.539 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:28:28.539 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  b1 82 00 05 aa 24 00 01 11 9f 01 00 00 00 00 00  * .....$.......... *
+  00 00 00 00 65 11 9f ee ee ee ee 0e 56 ee ee 28  * ....e.......V..( *
+  01 b1 00 07 00 50 7b fa 51 7c ac 38 7d 03 39 7d  * .....P{.Q|.8}.9} *
+  80 3a 7e 67 00 37 7f 94 36 80 ba e8 81 30 28 81  * .:~g.7..6....0(. *}
+2016/10/15 09:28:28.539 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  d7 48 82 57 00 d4 82 a2 25 83 23 35 83 c7 00 ee  * .H.W....%.#5.... *
+  ee 00 ee ee 00 00 ee ee 00 ee ee 00 ee ee 00 ee  * ................ *
+  ee 00 ee ee 00 00 ee ee 00 ee ee 00 ee ee 00 ee  * ................ *
+  ee 00 ee ee 00 00 ee ee 00 ee ee 00 ee ee 00 ee  * ................ *}
+2016/10/15 09:28:28.539 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[7]:
+  ee 00 ee ee 42 6a 03                             * ....Bj.          *}
+2016/10/15 09:28:28.805 CNCB0(0)-(trace)->: MSG_LINE_DATA {[2]:
+  ff 06                                            * ..               *}
+2016/10/15 09:28:29.805 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:28:29.805 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[11]:
+  e7 06 00 05 00 00 11 9f 90 cf 03                 * ...........      *}
+2016/10/15 09:30:04.804 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:30:04.804 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[11]:
+  e8 06 00 05 0f 7a 8a c4 71 76 03                 * .....z..qv.      *}
+2016/10/15 09:30:04.851 CNCB0(0)-(trace)->: MSG_LINE_DATA {[8]:
+  ff 02 ef 01 00 e2 09 03                          * ........         *}
+2016/10/15 09:30:05.226 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:30:05.226 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  ef 83 00 05 00 49 99 c1 9b ea ea ea ea 3c 06 7a  * .....I.......<.z *
+  89 ee ee ee ee ee ee ee ee 09 31 0a 16 0f 7a 8a  * ..........1...z. *
+  c4 07 10 89 bd 56 69 6b 74 6f 72 3b 4d 6f 72 61  * .....Viktor;Mora *
+  6e 64 69 6e 69 3b 3b 3b 3b 3b 3b 3b 3b 3b 3b 00  * ndini;;;;;;;;;;. *}
+2016/10/15 09:30:05.226 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  00 ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee  * ................ *
+  ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee  * ................ *
+  ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee  * ................ *
+  ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee  * ................ *}
+2016/10/15 09:30:05.226 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  ee ee ee ee ee b6 65 03                          * ......e.         *}
+2016/10/15 09:30:05.273 CNCB0(0)-(trace)->: MSG_LINE_DATA {[12]:
+  ff 02 ea 05 7e 05 05 05 05 b2 31 03              * ....~.....1.     *}
+2016/10/15 09:30:05.367 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:30:05.367 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  ea 03 00 05 7e 76 0c 03                          * ....~v..         *}
+2016/10/15 09:30:05.508 CNCB0(0)-(trace)->: MSG_LINE_DATA {[8]:
+  ff 02 ef 01 03 e1 09 03                          * ........         *}
+2016/10/15 09:30:05.929 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:30:05.929 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  ef 83 00 05 03 ee ee ee ee ee ee ee ee ee ee ee  * ................ *
+  ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee  * ................ *
+  ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee  * ................ *
+  ee ee ee ee ee 10 07 02 d0 00 00 00 00 3c 06 7a  * .............<.z *}
+2016/10/15 09:30:05.929 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  89 10 07 06 01 01 06 04 03 01 f3 00 0b 00 16 00  * ................ *
+  00 18 00 05 4a 08 00 05 0a 06 aa 01 d4 ee ee ee  * ....J........... *
+  ee ee ee ee ee aa cc ca cc ac cc ac ac ca aa ac  * ................ *
+  ac cc cc aa aa 73 69 61 63 ff ff ff ff 02 d0 00  * .....siac....... *}
+2016/10/15 09:30:05.929 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  7e 06 3e 00 00 17 fc 03                          * ~.>.....         *}
+2016/10/15 09:30:05.976 CNCB0(0)-(trace)->: MSG_LINE_DATA {[8]:
+  ff 02 ef 01 04 e6 09 03                          * ........         *}
+2016/10/15 09:30:06.383 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:30:06.383 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  ef 83 00 05 04 0c 42 7b 91 0c 23 7c 87 0c 23 7c  * ......B{..#|..#| *
+  a1 0c 44 7d 71 0c 29 7d dc 0c 2b 7e b9 0c 45 7f  * ..D}q.)}..+~..E. *
+  5d 0c 59 80 62 0c 60 80 ff 0c 41 81 78 ee ee ee  * ].Y.b.`...A.x... *
+  ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee  * ................ *}
+2016/10/15 09:30:06.383 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee  * ................ *
+  ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee  * ................ *
+  ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee  * ................ *
+  ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee  * ................ *}
+2016/10/15 09:30:06.383 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  ee ee ee ee ee 23 3b 03                          * .....#;.         *}
+2016/10/15 09:30:06.523 CNCB0(0)-(trace)->: MSG_LINE_DATA {[2]:
+  ff 06                                            * ..               *}
+2016/10/15 09:30:07.367 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:30:07.367 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[11]:
+  e7 06 00 05 00 7a 8a c4 4d 54 03                 * .....z..MT.      *}
+2016/10/15 09:52:44.651 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:52:44.651 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[11]:
+  e8 06 00 05 0f 83 9d d4 8f 61 03                 * .........a.      *}
+2016/10/15 09:52:44.698 CNCB0(0)-(trace)->: MSG_LINE_DATA {[8]:
+  ff 02 ef 01 00 e2 09 03                          * ........         *}
+2016/10/15 09:52:45.073 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:52:45.073 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  ef 83 00 05 00 dd c8 dd 9a ea ea ea ea 0d 06 33  * ...............3 *
+  57 ee ee ee ee 0d 08 38 21 31 93 32 b4 0f 83 9d  * W......8!1.2.... *
+  d4 06 0e 98 f0 38 36 32 35 36 32 30 3b 53 50 4f  * .....8625620;SPO *
+  52 54 69 64 65 6e 74 20 41 72 6e 73 74 61 64 74  * RTident Arnstadt *}
+2016/10/15 09:52:45.073 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  3b 3b 3b 3b 73 75 70 70 6f 72 74 40 73 70 6f 72  * ;;;;support@spor *
+  74 69 64 65 6e 74 2e 63 6f 6d 3b 3b 3b 3b 3b 47  * tident.com;;;;;G *
+  45 52 3b 00 00 ee ee ee ee ee ee ee ee ee ee ee  * ER;............. *
+  ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee  * ................ *}
+2016/10/15 09:52:45.073 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  ee ee ee ee ee 3d 8f 03                          * .....=..         *}
+2016/10/15 09:52:45.119 CNCB0(0)-(trace)->: MSG_LINE_DATA {[12]:
+  ff 02 ea 05 7e 05 05 05 05 b2 31 03              * ....~.....1.     *}
+2016/10/15 09:52:45.182 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:52:45.182 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  ea 03 00 05 7e 76 0c 03                          * ....~v..         *}
+2016/10/15 09:52:45.307 CNCB0(0)-(trace)->: MSG_LINE_DATA {[8]:
+  ff 02 ef 01 03 e1 09 03                          * ........         *}
+2016/10/15 09:52:45.729 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:52:45.729 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  ef 83 00 05 03 ee ee ee ee ee ee ee ee ee ee ee  * ................ *
+  ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee  * ................ *
+  ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee ee  * ................ *
+  ee ee ee ee ee 10 ee ee ee 0f 6e b3 fd 0d 05 33  * ..........n....3 *}
+2016/10/15 09:52:45.729 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[64]:
+  54 0e 06 17 01 01 06 03 02 08 56 00 0c 00 64 00  * T.........V...d. *
+  00 18 00 05 4a 08 00 05 0a 05 aa 01 97 ee ee ee  * ....J........... *
+  ee 0d 08 38 21 aa ca ca cc ac ca aa ca ac cc cc  * ...8!........... *
+  aa cc cc aa aa 73 69 61 63 ff ff ff ff 07 c4 68  * .....siac......h *}
+2016/10/15 09:52:45.729 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[8]:
+  14 06 31 00 00 37 cf 03                          * ..1..7..         *}
+2016/10/15 09:52:45.760 CNCB0(0)-(trace)->: MSG_LINE_DATA {[8]:
+  ff 02 ef 01 04 e6 09 03                          * ........         *}
+2016/10/15 09:52:46.151 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  02                                               * .                *}
+2016/10/15 09:52:46.151 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[11]:
+  02 06 00 05 00 83 9d d4 b3 43 03                 * .........C.      *}
+2016/10/15 09:52:46.713 CNCB0(0)-(trace)->: MSG_LINE_DATA {[8]:
+  ff 02 ef 01 04 e6 09 03                          * ........         *}
+2016/10/15 09:52:46.713 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  15                                               * .                *}
+2016/10/15 09:52:47.229 CNCB0(0)-(trace)->: MSG_LINE_DATA {[8]:
+  ff 02 ef 01 04 e6 09 03                          * ........         *}
+2016/10/15 09:52:47.229 CNCB0(0)<-(trace)-com7(1): MSG_LINE_DATA {[1]:
+  15                                               * .                *}
